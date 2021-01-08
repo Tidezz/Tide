@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>功能面板</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        form {
+            width: 270px;
+        }
+
+        input {
+            width: 70%;
+            background: #eee;
+        }
+
+        input:focus {
+            background: #fff;
+        }
+
+        form {
+            padding: 0 12px 12px;
+        }
+
+        label {
+            display: block;
+            padding-bottom: 12px;
+        }
+
+        #fun_button {
+            margin-left: 70px;
+            margin-top: 35px;
+        }
+
+        .function {
+            background-color: #65bcdd;
+            text-decoration-color: #0a4b80;
+            margin-top: 30px;
+            font-size: 16px;
+            font-family: Algerian;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div id="wrap">
+        <div id="header">
+            <h1>酒店餐饮管理系统</h1>
+        </div>
+        <div id="header-bar"></div>
+        <div id="content" style="height: 390px">
+            <img src="img/canting.jpg" style="float: right;height: 350px">
+            <h2>功能面板</h2>
+            <form action="provincelist.html" method="post">
+                <div id="fun_button">
+                    <a href="provincelist.html">
+                        <button type="button" class="function">餐饮预定</button>
+                    </a>
+                    <br>
+                    <a href="provincelist.html">
+                        <button type="button" class="function">餐桌使用</button>
+                    </a>
+                    <br>
+                    <a href="provincelist.html">
+                        <button type="button" class="function">客房外送</button>
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+</div>
+</body>
